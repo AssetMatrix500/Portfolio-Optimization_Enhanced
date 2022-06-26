@@ -1,10 +1,13 @@
-[![Presentation of Project](img/Thumbnail.png)](https://vimeo.com/manage/videos/724082009?embedded=false&source=video_title&owner=179170794)
-
-<br>
-
 # Modern Portfolio Theory using Particle Swarm Optimization
 > Daniel Carpenter  
 > June 2022
+
+<br>
+
+## Presentation
+[![Presentation of Project](img/Thumbnail.png)](https://vimeo.com/manage/videos/724082009?embedded=false&source=video_title&owner=179170794)
+
+## Overview
    
 This project outlines how Modern Portfolio Theory can be implemented using
 notable financial engineering techniques. The generated algorithm
@@ -20,7 +23,7 @@ portfolio.
 
 <br>
 
-# Quick Links
+## Quick Links
 * [Example of Optimization](Stock_Portfolio_Optimizer_Code/README.md)
 * [Presentation of Report (Slides)](Presentation%20Slides.pdf)
 * [Detailed Analysis and Report](Detailed%20Analysis/Detailed%20Analysis.pdf)
