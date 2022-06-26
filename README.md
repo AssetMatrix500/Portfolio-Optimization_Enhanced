@@ -22,5 +22,5 @@ portfolio.
 
 # Quick Links
 * [Example of Optimization](Stock_Portfolio_Optimizer_Code/README.md)
-* [Presentation of Report (Slides)](Detailed%20Analysis/Detailed%20Analysis.pdf)
-* [Detailed Analysis and Report](Presentation%20Slides%20(.pdf).pdf)
+* [Presentation of Report (Slides)](Presentation%20Slides.pdf)
+* [Detailed Analysis and Report](Detailed%20Analysis/Detailed%20Analysis.pdf)
