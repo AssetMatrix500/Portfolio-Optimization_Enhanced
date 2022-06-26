@@ -2,8 +2,6 @@
 > Daniel Carpenter  
 > June 2022
 
-<br>
-
 ## Presentation
 [![Presentation of Project](img/Thumbnail.png)](https://vimeo.com/manage/videos/724082009?embedded=false&source=video_title&owner=179170794)
 
