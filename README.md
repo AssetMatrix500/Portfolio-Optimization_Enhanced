@@ -8,7 +8,7 @@ This project enhances Daniel Carpenter's Portfolio Optimization model, particula
 - 5 [Implementation Note](#implementation-note)
 - 6 [Acknowledgment](#acknowledgment)
 - 7 [License](#license)
-- 8 [Professional Services]
+- 8 [Professional Services](#Professional-Services)
 - 9 [Attribution and Contributions](#attribution-and-contributions)
 - 10[Disclaimer](#disclaimer)
 --------------------------------------------------------------------------------------------------------------------------
