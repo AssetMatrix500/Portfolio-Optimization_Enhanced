@@ -1,0 +1,4 @@
+Portfolio Type,Return,Risk,Sharpe,Max Drawdown,Final Value
+Bayesian Optimized,13.63%,12.32%,0.98,-17.43%,"$427,141"
+Equal-Weighted,11.83%,12.78%,0.81,-19.09%,"$366,399"
+S&P 500 (SPY),N/A,N/A,N/A,-21.53%,"$431,188"
