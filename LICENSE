@@ -1,6 +1,12 @@
+--------------------------------------------------------------------------------------------------------------------------
+License
+--------------------------------------------------------------------------------------------------------------------------
+This project is licensed under the MIT License, maintaining the same license as the original repository by Daniel Carpenter.
+
 MIT License
 
-Copyright (c) 2022 Daniel Carpenter
+Copyright (c) 2022 Daniel Carpenter (original work)
+Copyright (c) 2025 AssetMatrix500 (modifications and enhancements)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +25,31 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+--------------------------------------------------------------------------------------------------------------------------
+Attribution and Contributions
+--------------------------------------------------------------------------------------------------------------------------
+This repository is a fork of Daniel Carpenter's Portfolio Optimization project 
+(https://github.com/Daniel-Carpenter/Portfolio-Optimization), which provided the 
+foundational code and structure.
+
+Key enhancements in this fork include:
+- Implementation of Bayesian shrinkage techniques with asset-specific priors
+- Factor model for covariance matrix with Blume-adjusted betas
+- Enhanced data collection from multiple financial APIs
+- Comprehensive performance analysis and visualization
+- Portfolio simulation and comparison with benchmarks
+
+While this code is freely available under the MIT license, professional implementation,
+customization, and consulting services are available. Please contact us for more information.
+
+--------------------------------------------------------------------------------------------------------------------------
+Disclaimer
+--------------------------------------------------------------------------------------------------------------------------
+This software is provided for educational and informational purposes only. It is not intended
+as financial advice or a recommendation to buy or sell any securities. Investment involves
+risk, and past performance is not indicative of future results. Users should conduct their
+own research and consult with a qualified financial advisor before making investment decisions.
+
+The authors and contributors to this software assume no responsibility for any losses, damages,
+or other liabilities that may arise from the use of this software or the information it provides.
