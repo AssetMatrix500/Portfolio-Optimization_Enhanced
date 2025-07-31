@@ -11,6 +11,15 @@ This project enhances Daniel Carpenter's Portfolio Optimization model, particula
 - 8 [Professional Services](#Professional-Services)
 - 9 [Attribution and Contributions](#attribution-and-contributions)
 - 10[Disclaimer](#disclaimer)
+
+## Share and Deploy This Project
+
+### Share on Social Media
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced)](https://twitter.com/intent/tweet?text=Check%20out%20this%20enhanced%20portfolio%20optimization%20tool%20with%20Bayesian%20shrinkage%20and%20DRIP%20support!&url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced)
+[![Share on Facebook](https://img.shields.io/badge/share%20on-facebook-blue?logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced)
+[![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-blue?logo=linkedin)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
+[![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
+
 --------------------------------------------------------------------------------------------------------------------------
 1. Key Enhancements
 --------------------------------------------------------------------------------------------------------------------------
