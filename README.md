@@ -21,7 +21,7 @@ This project enhances Daniel Carpenter's Portfolio Optimization model, particula
 [![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
 
 --------------------------------------------------------------------------------------------------------------------------
-1. Key Enhancements
+ ## 1. Key Enhancements 
 --------------------------------------------------------------------------------------------------------------------------
 Core Methodological Improvements
 
@@ -47,7 +47,7 @@ Reduces sensitivity to the random nature of PSO's search pattern.
 
 
 --------------------------------------------------------------------------------------------------------------------------
-2. Additional Enhancements
+## 2. Additional Enhancements 
 --------------------------------------------------------------------------------------------------------------------------
 
 Dividend Reinvestment Plan (DRIP) Support
@@ -78,7 +78,7 @@ Statistical analysis of drawdown severity and duration.
 Provides z-score metrics to contextualize drawdown events.
 
 --------------------------------------------------------------------------------------------------------------------------
-3. About the PSO Approach to MPT
+## 3. About the PSO Approach to MPT
 --------------------------------------------------------------------------------------------------------------------------
 Unlike traditional MPT approaches that use quadratic programming, this model uses Particle Swarm Optimization (PSO) to explore the space of possible portfolios in a non-deterministic way. This has several advantages:
 
@@ -87,7 +87,7 @@ Dual Capital Market Lines: The presence of two capital market lines is intention
 Adaptive Correction: The PSO approach corrects for unrealistic conclusions often found in deterministic MPT calculations. By exploring the actual portfolio space rather than relying purely on mathematical abstractions, it finds solutions that better reflect real-world constraints and behaviors.
 
 --------------------------------------------------------------------------------------------------------------------------
-4. ## Quick Start
+ ## 4. Quick Start
 --------------------------------------------------------------------------------------------------------------------------
 
 IMPORTANT: You must set up a Tiingo account for your API keys. 
@@ -140,7 +140,7 @@ IMPORTANT: You must set up a Tiingo account for your API keys.
 GitHub Wiki coming soon for more detailed instructions.
 ```
 --------------------------------------------------------------------------------------------------------------------------
-5. Implementation Note
+5. Implementation Note 
 --------------------------------------------------------------------------------------------------------------------------
 This enhancement focuses exclusively on the main optimization module and does not modify other files 
 in the original project. All enhancements have been integrated into a single comprehensive Python file 
