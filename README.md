@@ -22,6 +22,20 @@ This project enhances Daniel Carpenter's Portfolio Optimization model, particula
 [![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-blue?logo=linkedin)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
 [![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
 
+### User Demographics Survey - Help Us Continue Offering Free Tools
+
+**You're getting institutional-grade portfolio optimization for FREE.** Most investors pay thousands for this level of analysis. In exchange, I ask for 2 minutes of your time:
+
+[![Take the Survey](https://img.shields.io/badge/COMPLETE%20SURVEY-Access%20Premium%20Insights-red?style=for-the-badge&logo=googleforms)](https://forms.gle/YourGoogleFormURL)
+
+**Why your input matters:**
+- This tool costs significant resources to maintain and improve
+- Your demographics help me secure development funding
+- Survey completers receive exclusive access to optimized starter portfolios
+- Without user data, I may need to move to a paid-only model
+
+**I respect your privacy:** All responses are anonymous and aggregated. No personally identifiable information is collected.
+
 ## 1. Key Enhancements
 
 ### Core Methodological Improvements
@@ -124,6 +138,10 @@ The PSO approach corrects for unrealistic conclusions often found in determinist
    - Open the Jupyter notebook
    - Adjust parameters as needed (stocks, iterations, optimization goal)
    - Run all cells to generate portfolio allocation and visualizations
+
+4. **Share your experience**
+   - After using the tool, please consider [taking our user survey](https://forms.gle/YourGoogleFormURL)
+   - Your feedback directly influences development priorities
 
 GitHub Wiki coming soon for more detailed instructions.
 
