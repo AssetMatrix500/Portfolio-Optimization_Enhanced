@@ -27,23 +27,23 @@ Core Methodological Improvements
 
 Bayesian Shrinkage for Expected Returns
 
-Reduces estimation error by intelligently "shrinking" extreme return expectations toward more reasonable priors
-Uses asset-specific priors based on market cap and industry classification
-Significantly improves out-of-sample performance by preventing optimizer oversensitivity to outliers
+Reduces estimation error by intelligently "shrinking" extreme return expectations toward more reasonable priors.
+Uses asset-specific priors based on market cap and industry classification.
+Significantly improves out-of-sample performance by preventing optimizer oversensitivity to outliers.
 
 
 Blume-Adjusted Betas in Factor Model
 
-Implements regression coefficient adjustments following Blume's methodology
-Corrects for the statistical tendency of betas to revert toward 1.0 over time
-Creates more stable covariance estimates, particularly important for long-term investments
+Implements regression coefficient adjustments following Blume's methodology.
+Corrects for the statistical tendency of betas to revert toward 1.0 over time.
+Creates more stable covariance estimates, particularly important for long-term investments.
 
 
 Portfolio Results Averaging
 
-Runs multiple PSO optimization passes and averages the results
-Produces more stable and robust allocation recommendations
-Reduces sensitivity to the random nature of PSO's search pattern
+Runs multiple PSO optimization passes and averages the results.
+Produces more stable and robust allocation recommendations.
+Reduces sensitivity to the random nature of PSO's search pattern.
 
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -52,30 +52,30 @@ Reduces sensitivity to the random nature of PSO's search pattern
 
 Dividend Reinvestment Plan (DRIP) Support
 
-Simulates the compounding effect of reinvested dividends
-Realistic modeling of how dividends affect long-term performance
-Particularly valuable for Dividend Kings universe optimization
+Simulates the compounding effect of reinvested dividends.
+Realistic modeling of how dividends affect long-term performance.
+Particularly valuable for Dividend Kings universe optimization.
 
 
 Flexible Monthly Contributions
 
-Supports user-defined contribution amounts
-Models realistic investment behavior with periodic capital injections
-Shows compounding effects of consistent investing over time
+Supports user-defined contribution amounts.
+Models realistic investment behavior with periodic capital injections.
+Shows compounding effects of consistent investing over time.
 
 
 Rolling Optimization Windows
 
-Uses 36-month rolling windows to adapt to changing market conditions
-Avoids overfitting to single market regimes
-Provides more reliable performance across different market cycles
+Uses 36-month rolling windows to adapt to changing market conditions.
+Avoids overfitting to single market regimes.
+Provides more reliable performance across different market cycles.
 
 
 Advanced Drawdown Analysis
 
-Calculates and visualizes portfolio drawdowns
-Statistical analysis of drawdown severity and duration
-Provides z-score metrics to contextualize drawdown events
+Calculates and visualizes portfolio drawdowns.
+Statistical analysis of drawdown severity and duration.
+Provides z-score metrics to contextualize drawdown events.
 
 --------------------------------------------------------------------------------------------------------------------------
 3. About the PSO Approach to MPT
@@ -151,7 +151,7 @@ for simplicity and ease of use.
 --------------------------------------------------------------------------------------------------------------------------
 6. Acknowledgment
 --------------------------------------------------------------------------------------------------------------------------
-This project builds upon the excellent Modern Portfolio Theory implementation by Daniel Carpenter. The original work established the foundation for using PSO in portfolio optimization, which we've extended with additional statistical techniques and practical investment features.
+This project builds upon the excellent Modern Portfolio Theory implementation by Daniel Carpenter. The original work established the foundation for using PSO in portfolio optimization, which I've extended with additional statistical techniques and practical investment features.
 
 --------------------------------------------------------------------------------------------------------------------------
 7. License
