@@ -1,16 +1,18 @@
+# Portfolio Optimization Enhanced
+
 This project enhances Daniel Carpenter's Portfolio Optimization model, particularly focused on maximizing Sharpe ratio for dividend-focused investors. The model uses Particle Swarm Optimization (PSO) to find the optimal portfolio allocation while incorporating several sophisticated adjustments that improve real-world performance.
 
 ## Table of Contents
-- 1 [Key Enhancements](#key-enhancements)
-- 2 [Additional Enhancements](#additional-enhancements)
-- 3 [About the PSO Approach to MPT](#about-the-pso-approach-to-mpt)
-- 4 [Quick Start](#quick-start)
-- 5 [Implementation Note](#implementation-note)
-- 6 [Acknowledgment](#acknowledgment)
-- 7 [License](#license)
-- 8 [Professional Services](#Professional-Services)
-- 9 [Attribution and Contributions](#attribution-and-contributions)
-- 10[Disclaimer](#disclaimer)
+- [1. Key Enhancements](#1-key-enhancements)
+- [2. Additional Enhancements](#2-additional-enhancements)
+- [3. About the PSO Approach to MPT](#3-about-the-pso-approach-to-mpt)
+- [4. Quick Start](#4-quick-start)
+- [5. Implementation Note](#5-implementation-note)
+- [6. Acknowledgment](#6-acknowledgment)
+- [7. License](#7-license)
+- [8. Professional Services](#8-professional-services)
+- [9. Attribution and Contributions](#9-attribution-and-contributions)
+- [10. Disclaimer](#10-disclaimer)
 
 ## Share and Deploy This Project
 
@@ -20,77 +22,63 @@ This project enhances Daniel Carpenter's Portfolio Optimization model, particula
 [![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-blue?logo=linkedin)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
 [![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
 
---------------------------------------------------------------------------------------------------------------------------
- ## 1. Key Enhancements 
---------------------------------------------------------------------------------------------------------------------------
-Core Methodological Improvements
+## 1. Key Enhancements
 
-Bayesian Shrinkage for Expected Returns
+### Core Methodological Improvements
 
-Reduces estimation error by intelligently "shrinking" extreme return expectations toward more reasonable priors.
-Uses asset-specific priors based on market cap and industry classification.
-Significantly improves out-of-sample performance by preventing optimizer oversensitivity to outliers.
+#### Bayesian Shrinkage for Expected Returns
+- Reduces estimation error by intelligently "shrinking" extreme return expectations toward more reasonable priors
+- Uses asset-specific priors based on market cap and industry classification
+- Significantly improves out-of-sample performance by preventing optimizer oversensitivity to outliers
 
+#### Blume-Adjusted Betas in Factor Model
+- Implements regression coefficient adjustments following Blume's methodology
+- Corrects for the statistical tendency of betas to revert toward 1.0 over time
+- Creates more stable covariance estimates, particularly important for long-term investments
 
-Blume-Adjusted Betas in Factor Model
+#### Portfolio Results Averaging
+- Runs multiple PSO optimization passes and averages the results
+- Produces more stable and robust allocation recommendations
+- Reduces sensitivity to the random nature of PSO's search pattern
 
-Implements regression coefficient adjustments following Blume's methodology.
-Corrects for the statistical tendency of betas to revert toward 1.0 over time.
-Creates more stable covariance estimates, particularly important for long-term investments.
+## 2. Additional Enhancements
 
+#### Dividend Reinvestment Plan (DRIP) Support
+- Simulates the compounding effect of reinvested dividends
+- Realistic modeling of how dividends affect long-term performance
+- Particularly valuable for Dividend Kings universe optimization
 
-Portfolio Results Averaging
+#### Flexible Monthly Contributions
+- Supports user-defined contribution amounts
+- Models realistic investment behavior with periodic capital injections
+- Shows compounding effects of consistent investing over time
 
-Runs multiple PSO optimization passes and averages the results.
-Produces more stable and robust allocation recommendations.
-Reduces sensitivity to the random nature of PSO's search pattern.
+#### Rolling Optimization Windows
+- Uses 36-month rolling windows to adapt to changing market conditions
+- Avoids overfitting to single market regimes
+- Provides more reliable performance across different market cycles
 
+#### Advanced Drawdown Analysis
+- Calculates and visualizes portfolio drawdowns
+- Statistical analysis of drawdown severity and duration
+- Provides z-score metrics to contextualize drawdown events
 
---------------------------------------------------------------------------------------------------------------------------
-## 2. Additional Enhancements 
---------------------------------------------------------------------------------------------------------------------------
-
-Dividend Reinvestment Plan (DRIP) Support
-
-Simulates the compounding effect of reinvested dividends.
-Realistic modeling of how dividends affect long-term performance.
-Particularly valuable for Dividend Kings universe optimization.
-
-
-Flexible Monthly Contributions
-
-Supports user-defined contribution amounts.
-Models realistic investment behavior with periodic capital injections.
-Shows compounding effects of consistent investing over time.
-
-
-Rolling Optimization Windows
-
-Uses 36-month rolling windows to adapt to changing market conditions.
-Avoids overfitting to single market regimes.
-Provides more reliable performance across different market cycles.
-
-
-Advanced Drawdown Analysis
-
-Calculates and visualizes portfolio drawdowns.
-Statistical analysis of drawdown severity and duration.
-Provides z-score metrics to contextualize drawdown events.
-
---------------------------------------------------------------------------------------------------------------------------
 ## 3. About the PSO Approach to MPT
---------------------------------------------------------------------------------------------------------------------------
+
 Unlike traditional MPT approaches that use quadratic programming, this model uses Particle Swarm Optimization (PSO) to explore the space of possible portfolios in a non-deterministic way. This has several advantages:
 
-Note on Optimization Approach: While this model can optimize for minimum risk ("risk" parameter), the "Sharpe" parameter was rigorously tested and found to produce superior portfolios at the point of tangency on the efficiency frontier.
-Dual Capital Market Lines: The presence of two capital market lines is intentional and not an error. The traditional Capital Market Line (green dashed line) represents theoretical optimal portfolios from classic MPT. The PSO-derived Capital Market Line (magenta dashed line) represents what our adaptive algorithm found through its exploration of the portfolio space.
-Adaptive Correction: The PSO approach corrects for unrealistic conclusions often found in deterministic MPT calculations. By exploring the actual portfolio space rather than relying purely on mathematical abstractions, it finds solutions that better reflect real-world constraints and behaviors.
+#### Note on Optimization Approach
+While this model can optimize for minimum risk ("risk" parameter), the "Sharpe" parameter was rigorously tested and found to produce superior portfolios at the point of tangency on the efficiency frontier.
 
---------------------------------------------------------------------------------------------------------------------------
- ## 4. Quick Start
---------------------------------------------------------------------------------------------------------------------------
+#### Dual Capital Market Lines
+The presence of two capital market lines is intentional and not an error. The traditional Capital Market Line (green dashed line) represents theoretical optimal portfolios from classic MPT. The PSO-derived Capital Market Line (magenta dashed line) represents what our adaptive algorithm found through its exploration of the portfolio space.
 
-IMPORTANT: You must set up a Tiingo account for your API keys. 
+#### Adaptive Correction
+The PSO approach corrects for unrealistic conclusions often found in deterministic MPT calculations. By exploring the actual portfolio space rather than relying purely on mathematical abstractions, it finds solutions that better reflect real-world constraints and behaviors.
+
+## 4. Quick Start
+
+**IMPORTANT**: You must set up a Tiingo account for your API keys. 
 
 ### Prerequisites
 - [Anaconda](https://www.anaconda.com/download/) installed on your system
@@ -138,24 +126,21 @@ IMPORTANT: You must set up a Tiingo account for your API keys.
    - Run all cells to generate portfolio allocation and visualizations
 
 GitHub Wiki coming soon for more detailed instructions.
-```
---------------------------------------------------------------------------------------------------------------------------
-5. Implementation Note 
---------------------------------------------------------------------------------------------------------------------------
+
+## 5. Implementation Note
+
 This enhancement focuses exclusively on the main optimization module and does not modify other files 
 in the original project. All enhancements have been integrated into a single comprehensive Python file 
 for simplicity and ease of use.
 
 **Main file for enhanced version:** `enhanced_mpt_optimizer.py`
 
---------------------------------------------------------------------------------------------------------------------------
-6. Acknowledgment
---------------------------------------------------------------------------------------------------------------------------
+## 6. Acknowledgment
+
 This project builds upon the excellent Modern Portfolio Theory implementation by Daniel Carpenter. The original work established the foundation for using PSO in portfolio optimization, which I've extended with additional statistical techniques and practical investment features.
 
---------------------------------------------------------------------------------------------------------------------------
-7. License
---------------------------------------------------------------------------------------------------------------------------
+## 7. License
+
 This project is licensed under the MIT License, maintaining the same license as the original repository by Daniel Carpenter.
 
 MIT License
@@ -181,10 +166,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
---------------------------------------------------------------------------------------------------------------------------
-8. Professional Services
---------------------------------------------------------------------------------------------------------------------------
+## 8. Professional Services
 
 While this code is freely available under the MIT license, I offer professional consulting services for implementation, customization, and strategic advice:
 
@@ -196,9 +178,8 @@ While this code is freely available under the MIT license, I offer professional 
 
 **[Hire me on Fiverr](https://www.fiverr.com/s/8zDNb5z)** for professional portfolio optimization services.
 
---------------------------------------------------------------------------------------------------------------------------
-9. Attribution and Contributions
---------------------------------------------------------------------------------------------------------------------------
+## 9. Attribution and Contributions
+
 This repository is a fork of Daniel Carpenter's Portfolio Optimization project 
 (https://github.com/Daniel-Carpenter/Portfolio-Optimization), which provided the 
 foundational code and structure.
@@ -213,9 +194,8 @@ Key enhancements in this fork include:
 While this code is freely available under the MIT license, professional implementation,
 customization, and consulting services are available. Please contact us for more information.
 
---------------------------------------------------------------------------------------------------------------------------
-10. Disclaimer
---------------------------------------------------------------------------------------------------------------------------
+## 10. Disclaimer
+
 This software is provided for educational and informational purposes only. It is not intended
 as financial advice or a recommendation to buy or sell any securities. Investment involves
 risk, and past performance is not indicative of future results. Users should conduct their
