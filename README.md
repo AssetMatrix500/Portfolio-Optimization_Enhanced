@@ -24,9 +24,10 @@ This project enhances Daniel Carpenter's Portfolio Optimization model, particula
 
 ### User Demographics Survey - Help Us Continue Offering Free Tools
 
+
 **You're getting institutional-grade portfolio optimization for FREE.** Most investors pay thousands for this level of analysis. In exchange, I ask for 2 minutes of your time:
 
-[![Take the Survey](https://img.shields.io/badge/COMPLETE%20SURVEY-Access%20Premium%20Insights-red?style=for-the-badge&logo=googleforms)](https://forms.gle/YourGoogleFormURL)
+[![Take the Survey](https://img.shields.io/badge/COMPLETE%20SURVEY-Access%20Premium%20Insights-red?style=for-the-badge&logo=googleforms)](https://docs.google.com/forms/d/e/1FAIpQLSeUQCnXZmBlKx8Iy4nXjQcswj6--J3Oh0TLiNmzIffjqwX5sQ/viewform?usp=sharing&ouid=115695762553754038934)
 
 **Why your input matters:**
 - This tool costs significant resources to maintain and improve
