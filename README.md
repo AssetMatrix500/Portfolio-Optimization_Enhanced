@@ -22,7 +22,7 @@ This project enhances Daniel Carpenter's Portfolio Optimization model, particula
 [![Share on LinkedIn](https://img.shields.io/badge/share%20on-linkedin-blue?logo=linkedin)](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
 [![Share on Reddit](https://img.shields.io/badge/share%20on-reddit-red?logo=reddit)](https://reddit.com/submit?url=https%3A%2F%2Fgithub.com%2FAssetMatrix500%2FPortfolio-Optimization_Enhanced&title=Enhanced%20Portfolio%20Optimizer%20with%20Bayesian%20Shrinkage%20and%20DRIP)
 
-### User Demographics Survey - Help Us Continue Offering Free Tools
+### User Demographics Survey - Help Me Continue Offering Free Tools
 
 
 **You're getting institutional-grade portfolio optimization for FREE.** Most investors pay thousands for this level of analysis. In exchange, I ask for 2 minutes of your time:
